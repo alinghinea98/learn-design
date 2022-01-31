@@ -1,0 +1,12 @@
+<mat-toolbar>
+  <img src="assets/icons/app-logo_nobg.svg" class="logo"/>
+  <ng-container *ngTemplateOutlet="nav"></ng-container>
+</mat-toolbar>
+<ng-template #nav>
+  <nav>
+    <button mat-button>Terminplan</button>
+    <button mat-button>Personen</button>
+    <button mat-button>Controlling</button>
+    <button mat-button>Stammdaten</button>
+  </nav>
+</ng-template>
